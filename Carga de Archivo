@@ -1,0 +1,16 @@
+def grabar_reporte(nombre_entrada, nombre_salida):
+    #Abrimos archivo de entrada
+    arc_entrada = open(nombre_entrada)
+    
+    #Variables para obtener maximo y minimo
+    maximo = 0
+    nombre_maximo = ""
+    minimo = 20
+    nombre_minimo = ""
+
+    #Contadores y acumuladores
+    cantidad_aprobados = 0
+    suma_general = 0
+
+    #Utilizaremos la lista para contar los alumnos con notas > promedio
+    lista_notas = []
